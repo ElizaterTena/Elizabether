@@ -1,0 +1,54 @@
+body {
+	margin: 0;
+	margin-left; 
+	background-color: violet;
+        background-image: url("https://2.bp.blogspot.com/-1Fes1H8cVmM/V06-A2qX5jI/AAAAAAAAAjs/J6in4UqYSNgnHAVbjcHlrKom5aLv8P__wCLcB/s1600/jk%2B1.jpg");
+	background-repeat: no repeat;
+}
+}
+
+header{
+	background: #3333;
+	color: blue;
+	margin: 0;
+}
+
+
+
+header h1 {
+	margin: 0;
+	float: left;
+	padding: 10px 0 10px 15px;
+}
+
+header a {
+	color: white;
+    text-decoration: none;
+	margin:0 auto;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+    background-color: #111;
+}
+
+nav .active {
+    background-color: #4CAF50;
+}
